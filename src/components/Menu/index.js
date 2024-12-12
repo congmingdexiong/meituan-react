@@ -18,7 +18,7 @@ const Menu = () => {
             key={item.tag}
             className={classNames(
               "list-menu-item",
-              activeIndex === index && "action"
+              activeIndex === index && "active"
             )}
           >
             {item.name}
