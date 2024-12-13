@@ -14,7 +14,8 @@
           "price": 90,
           "picture": "https://qcloud.dpfile.com/pc/r41hDwJ4G3z2RpnFJroT9arUd5DhJ0MM3w2p8oekxzUrg3bZmogVH6Ln8ywR4Guo.jpg",
           "description": "",
-          "tag": "318569657"
+          "tag": "318569657",
+          "count": 1
         },
         {
           "id": 7384994864,
@@ -26,7 +27,8 @@
           "price": 39,
           "picture": "https://pic.rmb.bdstatic.com/bjh/down/e28320e81ce10e0a96a71782659f0863.jpeg",
           "description": "",
-          "tag": "318569657"
+          "tag": "318569657",
+          "count": 1
         },
         {
           "id": 2305772036,
@@ -38,7 +40,8 @@
           "price": 34.32,
           "picture": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F1011%2F4208926aj00r0sk8c0014c000hs00buc.jpg&thumbnail=660x2147483647&quality=80&type=jpg",
           "description": "主料：大米、鸡腿、菜心、胡萝卜",
-          "tag": "318569657"
+          "tag": "318569657",
+          "count": 1
         },
         {
           "id": 2233861812,
@@ -50,7 +53,8 @@
           "price": 34.32,
           "picture": "https://img01.yzcdn.cn/upload_files/2021/09/10/FqT5cz7pb6xfS3hsz6wC97YtcPYO.jpg",
           "description": "酸汤莜面鱼鱼，主料：酸汤、莜面 肉夹馍，主料：白皮饼、猪肉",
-          "tag": "318569657"
+          "tag": "318569657",
+          "count": 1
         }
       ]
     },
