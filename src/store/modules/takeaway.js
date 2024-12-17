@@ -23,10 +23,31 @@ const foodStore = createSlice({
         state.cartList.push(action.payload);
       }
     },
+    increaseCount(state, action) {
+      const item = state.cartList.find((item) => item.id === action.payload.id);
+      item.count++;
+    },
+    decreaseCount(state, action) {
+      const item = state.cartList.find((item) => item.id === action.payload.id);
+      if (item.count === 0) {
+        return;
+      }
+      item.count--;
+    },
+    clearCart(state) {
+      state.cartList = [];
+    },
   },
 });
 
-const { setFoodList, changeActiveIndex, addCart } = foodStore.actions;
+const {
+  setFoodList,
+  changeActiveIndex,
+  addCart,
+  increaseCount,
+  decreaseCount,
+  clearCart,
+} = foodStore.actions;
 const fetchFoodList = () => {
   return async (dispatch) => {
     const res = await axios.get("http://localhost:3004/takeaway");
@@ -34,6 +55,14 @@ const fetchFoodList = () => {
   };
 };
 
-export { setFoodList, fetchFoodList, changeActiveIndex, addCart };
+export {
+  setFoodList,
+  fetchFoodList,
+  changeActiveIndex,
+  addCart,
+  increaseCount,
+  decreaseCount,
+  clearCart,
+};
 
 export default foodStore.reducer;
